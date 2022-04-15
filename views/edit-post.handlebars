@@ -1,32 +1,43 @@
-<article>
-    <a href="/dashboard"> &larr; Back to dashboard</a>
-    <h2>
-        Edit Post
-    </h2>
-    <form class="edit-post-form">
-        <div>
-            <input name="post-title" type="text" value="{{post.title}}" />
-            <span>({{format_url post.post_url}})</span>
-        </div>
-        <div>
-            {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}}
-            |
-            <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
-        </div>
-        <button type="submit">Save Post</button>
-        <button type="button" class="delete-post-btn">Delete post</button>
-    </form>
-</article>
 
+  <div class="row d-flex justify-content-center">
+    <article class="col-10 card">
+        <h2>
+            Edit Post
+        </h2>
+            <form class="edit-post-form">
+              
+
+                        <div>
+                            <input name="post-title" type="text" value="{{post.title}}" />
+                        </div>
+                        <div>
+                            ({{ post.post_body}})
+                        </div>
+                        <br>
+                        <div>
+                            {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}}
+                            |
+                            <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
+                        </div>
+
+
+
+                <button type="submit">Save Post</button>
+                <button type="button" class="delete-post-btn">Delete post</button>
+            </form>
+    </article>
+</div>
+
+{{!-- 
 <form class="comment-form">
-    <div>
-        <textarea name="comment-body"></textarea>
-    </div>
+        <div>
+            <textarea name="comment-body"></textarea>
+        </div>
 
-    <div>
-        <button type="submit">add comment</button>
-    </div>
-</form>
+        <div>
+            <button type="submit">add comment</button>
+        </div>
+</form> --}}
 
 {{> comments post.comments}}
 

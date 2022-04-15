@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS just_tech_news_db;
+DROP DATABASE IF EXISTS neotech_blog_db;
 
-CREATE DATABASE just_tech_news_db;
+CREATE DATABASE neotech_blog_db;
 

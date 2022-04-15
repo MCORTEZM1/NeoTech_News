@@ -24,7 +24,7 @@ router.get('/:id', (req, res) => {
         include: [
             {
                 model: Post, 
-                attributes: ['id', 'title', 'post_url', 'created_at']
+                attributes: ['id', 'title', 'post_body', 'created_at']
             },
             // include comment model here 
             {
@@ -123,7 +123,7 @@ router.post('/logout', (req, res) => {
     }
     else {
         res.status(404).end();
-    }
+    }   
 });
 
 
@@ -145,7 +145,7 @@ router.put('/:id', (req, res) => {
                 res.status(404).json({ message: 'No user found with this id'});
                 return;
             }
-            res.json(dbUserData);
+            res.json({dbUserData , message: 'Your info has been updated'});
         })
         .catch(err => {
             console.log(err);
