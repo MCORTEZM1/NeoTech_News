@@ -1,6 +1,7 @@
 {{> post-info post }}
+{{#if loggedIn}}
 <button type="button" class="upvote-btn btn btn-secondary mt-2">Like</button>
-
+{{/if}}
 {{> comments post.comments}}
 {{#if loggedIn}}
 <form class="comment-form mt-3">
