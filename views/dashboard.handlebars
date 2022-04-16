@@ -18,17 +18,19 @@
 </div>
 
 {{#if posts.length}}
-<section>
-    <h2>Your Posts</h2>
-    <ol class="row">
-        {{#each posts as |post|}}
-        <li id="posts-li" >
-            {{> post-info post}}
-            <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
-        </li>
-        {{/each}}
-    </ol>
-</section>
+<div class="d-flex justify-content-center row mt-3">
+    <section class="col-12">
+        <h2>Your Posts</h2>
+        <ol class="ps-0">
+            {{#each posts as |post|}}
+            <li id="posts-li" class="">
+                {{> post-info post}}
+                <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+            </li>
+            {{/each}}
+        </ol>
+    </section>
+</div>
 {{/if}}
 
 <script src="/javascript/add-post.js"></script>
