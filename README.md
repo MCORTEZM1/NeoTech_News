@@ -58,4 +58,5 @@
   Account creation test can be run by clicking 'sign-up', adding your information, and creating posts. 
   
 
-  ![NeoTech](./img/neo-tech.PNG "homepage view")
+  ![NeoTech](./img/neomobile.PNG "mobile view")
+  ![NeoTech](./img/updateneo.PNG "Desktop view")
