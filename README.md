@@ -1,5 +1,5 @@
 
-  # NeoTech News Blog
+  # NeoTech News Blog :newspaper:
 
   ## **Live Heroku Application**
 
@@ -11,7 +11,8 @@
   - This application was written using JavaScript, HTML, CSS, ES6, bootstrap, Node, Express.js, SQL, Heroku, and is optimized for desktop and mobile
   - The motivation behind NeoTech Blog was the need to stay up-to-date with current tech news and converse with other's who are interested in the same topics.
   - While building this site, I honed my familiarity with SQL databases using full Javascript and creating applications following the Model-View-Controller paradigm. 
-  - NeoTech is my first endeavor to develop a full-stack application alone. Please let me know what you think :smile:
+  - NeoTech is my first endeavor to develop a full-stack application alone. :nerd_face:
+  - Please let me know what you think :smile:
 
   ## **Table of Contents** 
   
@@ -51,7 +52,7 @@
 
   ## **Questions / Contact Me**
 
-  Please reach out with any questions or concerns directly to: mcortezm@yahoo.com
+ :thinking: Please reach out with any questions or concerns directly to: mcortezm@yahoo.com
 
 
 ## **Tests**
