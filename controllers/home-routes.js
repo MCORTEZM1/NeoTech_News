@@ -36,7 +36,6 @@ router.get('/', (req, res) => {
             posts,
             loggedIn: req.session.loggedIn
         });
-        // we havent needed to serialize data before when building APIs routes, because res.json() method automatically does. 
     })
     .catch(err => {
         console.log(err);

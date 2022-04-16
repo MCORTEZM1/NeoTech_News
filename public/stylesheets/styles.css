@@ -11,6 +11,7 @@
     color: black;
 }
 
-#post-body{ 
+#post-body, #edit-body{ 
     height: 100px;
 }
+

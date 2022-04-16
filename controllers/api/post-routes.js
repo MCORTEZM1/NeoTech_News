@@ -108,7 +108,7 @@ router.put('/upvote', withAuth, (req, res) => {
                 res.status(500).json(err);
             });
     }
-});+
+});
 
 
 
@@ -116,7 +116,8 @@ router.put('/upvote', withAuth, (req, res) => {
 router.put('/:id', withAuth, (req, res) => {
     Post.update(
         {
-           title: req.body.title
+           title: req.body.title,
+           post_body: req.body.post_body
         },
         {
             where: {
