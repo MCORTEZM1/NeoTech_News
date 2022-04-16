@@ -46,7 +46,7 @@
 
   ## **How to Contribute**
 
-  If you would like to add/contribute to the project, feel free to fork from GitHub @MCORTEZM1 
+  :handshake:  If you would like to add/contribute to the project, feel free to fork from GitHub @MCORTEZM1 
   Or click here: https://github.com/MCORTEZM1/NeoTech_News
 
   ## **Questions / Contact Me**
