@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 
-<body>
+<body class="" >
     <header class="p-3 bg-dark text-white">
         <div class="container-fluid">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -49,8 +49,14 @@
     <main class="container">
         {{{ body }}}
     </main>
-    <footer>
-    </footer>
+    
+    <div class="cotainer fixed-bottom">
+        <footer class="footer bg-dark"></footer>
+        <div class="col-md-12 d-flex justify-content-center align-items-center bg-dark">
+            <span class="text-light">© 2022 MCMDev, inc.</span>
+        </div>
+        </footer>
+    </div>
     {{#if loggedIn}}
     <script src="/javascript/logout.js"></script>
     {{/if}}

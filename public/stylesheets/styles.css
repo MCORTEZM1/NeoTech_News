@@ -10,3 +10,7 @@
     text-decoration: none;
     color: black;
 }
+
+#post-body{ 
+    height: 100px;
+}
