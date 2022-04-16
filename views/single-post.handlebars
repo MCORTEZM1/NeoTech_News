@@ -1,14 +1,14 @@
 {{> post-info post }}
+<button type="button" class="upvote-btn btn btn-secondary mt-2">Like</button>
 
 {{> comments post.comments}}
 {{#if loggedIn}}
 <form class="comment-form mt-3">
     <div class="row d-flex justify-content-center">
-        <div class=" col-6">
-            <textarea class="col-12" name="comment-body"></textarea>
+        <div class="col-sm-12 col-md-8">
+            <textarea class="col-12" id="comment-text" name="comment-body"></textarea>
             <div class="text-center">
-                <button type="submit">add comment</button>
-                <button type="button" class="upvote-btn">Like</button>
+                <button type="submit" class="btn btn-warning">Comment</button>
             </div>
         </div>
 
