@@ -45,6 +45,8 @@
   
 
 
+
+
   ## **How to Contribute**
 
   :handshake:  If you would like to add/contribute to the project, feel free to fork from GitHub @MCORTEZM1 
@@ -59,6 +61,7 @@
 
   Account creation test can be run by clicking 'sign-up', adding your information, and creating posts. 
   
+
 
   ![NeoTech](./img/neomobile.PNG "mobile view")
   ![NeoTech](./img/updateneo.PNG "Desktop view")
