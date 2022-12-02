@@ -12,7 +12,7 @@
   - The motivation behind NeoTech Blog was the need to stay up-to-date with current tech news and converse with other's who are interested in the same topics.
   - While building this site, I honed my familiarity with SQL databases using full Javascript and creating applications following the Model-View-Controller paradigm. 
   - NeoTech is my first endeavor to develop a full-stack application alone. :nerd_face:
-  - Please let me know what you think :smile:
+  - Please let me know what you think! :smile:
 
   ## **Table of Contents** 
   
